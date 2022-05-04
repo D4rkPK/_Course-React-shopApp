@@ -6,9 +6,9 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
     entry: './src/index.js',
     output: {
-        path: resolve(__dirname, 'dist'),
-        filename: 'bundle.js',
-        publicPath: '/'
+        path: path.resolve(__dirname, 'dist'),
+        filename: '_Course-React-shopApp/bundle.js',
+        publicPath: '/_Course-React-shopApp'
     },
     mode: 'development',
     resolve:{
