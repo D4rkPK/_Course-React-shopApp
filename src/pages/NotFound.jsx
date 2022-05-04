@@ -9,7 +9,7 @@ const NotFound = () => {
         <div className="form-container">
           <img className="notFoundLogo" src="https://www.pngplay.com/wp-content/uploads/8/Space-Astronaut-Transparent-Background.png" alt="" />
           <img className="foundLogo" src="https://www.pngmart.com/files/15/Floating-Astronaut-PNG-Picture.png" alt="" />
-          <h1 className="title">404</h1>
+          <h1 className="title-NotFound">404</h1>
           <p className="subtitle">
             PAGE NOT FOUND
           </p>

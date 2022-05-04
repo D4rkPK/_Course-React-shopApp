@@ -6,6 +6,11 @@
 	box-sizing: border-box;
 	position: absolute;
 	right: 0;
+	background-color: var(--white);
+	top: 60px;
+	bottom: 0;
+	border-radius: 6px;
+	border: 1px solid var(--very-light-pink);
 }
 .title-container {
 	display: flex;
@@ -13,6 +18,7 @@
 .title-container img {
 	transform: rotate(180deg);
 	margin-right: 14px;
+	margin-bottom: 18px;
 }
 .title {
 	font-size: var(--lg);
