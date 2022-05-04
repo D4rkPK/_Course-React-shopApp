@@ -7,8 +7,8 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '_Course-React-shopApp/bundle.js',
-        publicPath: '/_Course-React-shopApp'
+        filename: 'bundle.js',
+        publicPath: './'
     },
     mode: 'development',
     resolve:{
